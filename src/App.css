@@ -1,0 +1,38 @@
+.header {
+  background: white;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  margin-left: 5px;
+  display: flex;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+.nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  padding: 0 5px 0 5px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+}
+
+.nav-item:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+.logo:hover {
+  color: gray;
+}

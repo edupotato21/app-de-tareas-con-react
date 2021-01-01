@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "title": "task one",
+    "description": "Rankiar y llegar a diamante",
+    "done": false
+  },
+  {
+    "id": 1,
+    "title": "task two",
+    "description": "Hacer popo",
+    "done": false
+  },
+  {
+    "id": 2,
+    "title": "task three",
+    "description": "Hacer una aplicación web",
+    "done": false
+  }
+]
