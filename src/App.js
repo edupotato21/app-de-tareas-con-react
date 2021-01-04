@@ -64,7 +64,7 @@ class App extends React.Component {
             path="/"
             render={() => {
               return (
-                <div>
+                <div className="App">
                   <TaskForm addTask={this.addTask} />
                   <Tasks
                     tasks={this.state.tasks}

@@ -1,0 +1,13 @@
+.Tasks {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  justify-content: center;
+}
+
+.main-tasks {
+  flex: 3 3 auto;
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+}

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import "./styles/TasksForm.css";
+
 export default class TaskForm extends Component {
   state = {
     title: "",
@@ -20,7 +22,7 @@ export default class TaskForm extends Component {
 
   render() {
     return (
-      <form onSubmit={this.onSubmit}>
+      <form className="Form" onSubmit={this.onSubmit}>
         <input
           type="text"
           name="title"

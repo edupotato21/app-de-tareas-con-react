@@ -36,3 +36,7 @@
 .logo:hover {
   color: gray;
 }
+
+.App {
+  display: flex;
+}
